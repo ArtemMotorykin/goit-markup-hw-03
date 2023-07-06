@@ -64,6 +64,8 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo-ligh {
@@ -236,7 +238,8 @@ button {
 
 .section-three-list {
     display: flex;
-    gap: 19px;
+    margin-right:not(:last-child) {
+    margin-bottom: 24px;
 }
 
 .section-three-item {
@@ -261,7 +264,9 @@ button {
 
 .sect-four-list {
     display: flex;
-    margin-right: 24px;
+    margin-right:not(:last-child) {
+    margin-bottom: 24px;
+        }
 }
 
 .sect-four-item {
@@ -343,10 +348,13 @@ button {
     color: var(--iris);
     line-height: 1.17;
     letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .top-btn {
     padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .section-two-menu {
