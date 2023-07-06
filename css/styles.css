@@ -64,26 +64,10 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-right: 76px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     padding-top: 24px;
     padding-bottom: 24px;
-=======
     padding-top: 25.5px;
     padding-bottom: 25.5px;
->>>>>>> parent of 86edda8 (web studio + portfolio ver.2)
-=======
->>>>>>> parent of cc3ba22 (web studio + portfolio ver.3)
-=======
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
->>>>>>> parent of 86edda8 (web studio + portfolio ver.2)
-=======
-    padding-top: 24px;
-    padding-bottom: 24px;
->>>>>>> parent of abf3f94 (web studio + portfolio ver.3)
 }
 
 .logo-ligh {
@@ -125,6 +109,8 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu-link:hover,
@@ -259,6 +245,10 @@ button {
     gap: 19px;
 }
 
+.section-three-list:not(:last-child) {
+    margin-right: 24px;
+}
+
 .section-three-item {
     width: calc((100% - 48px) / 3);
 }
@@ -266,7 +256,6 @@ button {
 .img-bg {
     background: var(--cornflower);
     border-radius: 0px 0px 4px 4px;
-    
 }
 
 .workers{
@@ -281,28 +270,12 @@ button {
 
 .sect-four-list {
     display: flex;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin-right:not(:last-child) {
     margin-bottom: 24px;
-        }
-=======
-    gap: 24px;
->>>>>>> parent of 86edda8 (web studio + portfolio ver.2)
-=======
-    margin-right: 24px;
->>>>>>> parent of cc3ba22 (web studio + portfolio ver.3)
-=======
-    gap: 24px;
->>>>>>> parent of 86edda8 (web studio + portfolio ver.2)
-=======
-    margin-right:not(:last-child) {
-    margin-bottom: 24px;
-        }
->>>>>>> parent of abf3f94 (web studio + portfolio ver.3)
 }
+
+.sect-four-list:not(:last-child) {
+    margin-right: 24px;
 
 .sect-four-item {
     width: calc((100% - 72px) / 4);
@@ -383,10 +356,13 @@ button {
     color: var(--iris);
     line-height: 1.17;
     letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .top-btn {
     padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .section-two-menu {
