@@ -65,12 +65,15 @@ button {
     letter-spacing: 0.03em;
     margin-right: 76px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-top: 24px;
     padding-bottom: 24px;
 =======
     padding-top: 25.5px;
     padding-bottom: 25.5px;
 >>>>>>> parent of 86edda8 (web studio + portfolio ver.2)
+=======
+>>>>>>> parent of cc3ba22 (web studio + portfolio ver.3)
 }
 
 .logo-ligh {
@@ -239,8 +242,7 @@ button {
 
 .section-three-list {
     display: flex;
-    margin-right:not(:last-child) {
-    margin-bottom: 24px;
+    gap: 19px;
 }
 
 .section-three-item {
@@ -261,12 +263,16 @@ button {
 .sect-four-list {
     display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-right:not(:last-child) {
     margin-bottom: 24px;
         }
 =======
     gap: 24px;
 >>>>>>> parent of 86edda8 (web studio + portfolio ver.2)
+=======
+    margin-right: 24px;
+>>>>>>> parent of cc3ba22 (web studio + portfolio ver.3)
 }
 
 .sect-four-item {
@@ -345,13 +351,10 @@ button {
     color: var(--iris);
     line-height: 1.17;
     letter-spacing: 0.03em;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .top-btn {
     padding-top: 96px;
-    padding-bottom: 120px;
 }
 
 .section-two-menu {
