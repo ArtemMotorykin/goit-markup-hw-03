@@ -66,6 +66,7 @@ button {
     margin-right: 76px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-top: 24px;
     padding-bottom: 24px;
 =======
@@ -74,6 +75,10 @@ button {
 >>>>>>> parent of 86edda8 (web studio + portfolio ver.2)
 =======
 >>>>>>> parent of cc3ba22 (web studio + portfolio ver.3)
+=======
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+>>>>>>> parent of 86edda8 (web studio + portfolio ver.2)
 }
 
 .logo-ligh {
@@ -264,6 +269,7 @@ button {
     display: flex;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-right:not(:last-child) {
     margin-bottom: 24px;
         }
@@ -273,6 +279,9 @@ button {
 =======
     margin-right: 24px;
 >>>>>>> parent of cc3ba22 (web studio + portfolio ver.3)
+=======
+    gap: 24px;
+>>>>>>> parent of 86edda8 (web studio + portfolio ver.2)
 }
 
 .sect-four-item {
