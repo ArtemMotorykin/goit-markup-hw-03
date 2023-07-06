@@ -73,11 +73,12 @@ button {
 
 .logo-ligh {
     color: var(--grey);
-
+    display: inline-block;
 }
 
 .logo-ligh-two {
     color: var(--cloud) ;
+    display: inline-block;
 }
 
 .header-container {
