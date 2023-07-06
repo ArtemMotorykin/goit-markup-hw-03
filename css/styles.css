@@ -242,7 +242,7 @@ button {
 
 .section-three-list {
     display: flex;
-    gap: 19px;
+    gap: 24px;
 }
 
 .section-three-list:not(:last-child) {
@@ -270,15 +270,13 @@ button {
 
 .sect-four-list {
     display: flex;
-    margin-right:not(:last-child) {
-    margin-bottom: 24px;
+    gap: 24px;
 }
 
-.sect-four-list:not(:last-child) {
-    margin-right: 24px;
 
 .sect-four-item {
     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .sect-four-heads-three {
@@ -303,7 +301,8 @@ button {
 
 .footer {
     background: var(--navy-blue);
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
     
 }
 
@@ -380,6 +379,7 @@ justify-content: center;
 .our-services {
     padding-top: 72px;
     padding-bottom: 120px;
+    justify-content: center;
 }
 
 .our-services-item {
