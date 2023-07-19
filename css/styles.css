@@ -189,7 +189,8 @@ button {
 .section-two-menu {
     display: flex;
     gap: 24px;
-    margin-bottom: 72px;
+    justify-content: center;
+    /*margin-bottom: 72px;*/
 }
 
 .section-two-menu-item {
@@ -261,7 +262,7 @@ button {
 }
 
 .workers{
-    padding: 32px 16px;
+    /*padding: 32px 16px;*/
 }
 
 .sect-four {
@@ -340,7 +341,7 @@ button {
     padding: 12px 24px;
     border-radius: 4px;
     display: inline-block;
-    margin-bottom: 16px;
+    /*margin-bottom: 16px;*/
     border: 1px solid #e7e9fc;
 }
 .digital-two:hover,
@@ -365,19 +366,18 @@ button {
 
 .top-btn {
     padding-top: 96px;
-    padding-bottom: 120px;
+    /*padding-bottom: 120px;*/
 }
 
-.section-two-menu {
-justify-content: center;
-}
-
-.top-btn .section-two-menu {
+.top-btn-menu {
+    display: flex;
     gap: 24px;
+    justify-content: center;
+    
 }
 
-.top-btn .section-two-menu-item {
-    width: calc((100% - 96px) / 5);
+.top-btn-menu-item {
+    /*width: calc((100% - 96px) / 5);*/
 }
 
 .our-services {
