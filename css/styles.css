@@ -262,7 +262,7 @@ button {
 }
 
 .workers{
-    /*padding: 32px 16px;*/
+    padding: 32px 0px;
 }
 
 .sect-four {
@@ -289,7 +289,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-top: 32px;
+   /*margin-top: 32px;*/
     margin-bottom: 8px;
 }
 
@@ -299,7 +299,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 32px;
+    /*padding-bottom: 32px;*/
 }
 
 .footer {
@@ -366,14 +366,14 @@ button {
 
 .top-btn {
     padding-top: 96px;
-    /*padding-bottom: 120px;*/
+    padding-bottom: 120px;
 }
 
 .top-btn-menu {
     display: flex;
     gap: 24px;
     justify-content: center;
-    
+    margin-bottom: 72px;
 }
 
 .top-btn-menu-item {
@@ -381,8 +381,8 @@ button {
 }
 
 .our-services {
-    padding-top: 72px;
-    padding-bottom: 120px;
+    /*padding-top: 72px;*/
+    /*padding-bottom: 120px;*/
     justify-content: center;
 }
 
